@@ -93,11 +93,11 @@ int main(){
 	
 	Image ii{Point {100,50},"papo.jpg"};
 	win.attach(ii);
-	win.set_label("kép");
+	win.set_label("ÁHÁHÁHÁHÁHÁHÁÁÁHÁHÁHÁHÁÁHÁHÁHÁHÁHÁHÁHÁHÁHHÁHÁ");
 	win.wait_for_button();
 	
 	ii.move(100,200);
-	win.set_label("mozgatas");
+	win.set_label("HEHEJ");
 	win.wait_for_button();
 	
 	Circle c{Point{100,200},50};
