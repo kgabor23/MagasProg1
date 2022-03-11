@@ -69,11 +69,11 @@ int main(){
 	peldaD2.pvf();
 	
 	D21 jaj;
-	jaj.s = "nééhéhhé";
+	jaj.s = "jajajaj";
 	jaj.pvf();
 	
 	D22 jaj2;
-	jaj2.n = 420;
+	jaj2.n = 13;
 	jaj2.pvf();
 	
 	f(jaj);
