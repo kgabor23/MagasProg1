@@ -1,0 +1,38 @@
+#include <string>
+#include <iostream>
+
+
+class A{
+	puclic:
+		virtual void vf(){std::cout << "Avf" << std::endl;};
+		virtual void f(){std::cout << "Af" << std::endl;};
+		virtual void pvf() = 0;
+}
+class B: public A{
+	public:
+		void f(){std::cout << "Bf" << std::endl;};
+		void pvf(){std::cout << "pvf" << std::endl;};
+		
+
+}
+
+int main(){
+	try{
+
+	std::cout << absztrakt osztály lekezelés << std::endl;
+	B.peldany;
+	peldany.vf();
+	peldany.f();
+	peladny.pvf();
+
+	}
+
+	catch(exception& e){
+	std::cerr << "Exception: " << e.what() << std::endl;
+	}
+
+	catch(...){
+	std::cerr << "exception: " << std::endl;
+	}
+
+}
