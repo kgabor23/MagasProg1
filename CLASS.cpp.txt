@@ -13,7 +13,7 @@ template<typename T> class A{
 		virtual void f(){std::cout << "Af" << std::endl;};
 		virtual void pvf() = 0;
 };
-class B: public A<T>{
+class B: public A<T&>{
 	public:
 		void f(){std::cout << "Bf" << std::endl;};
 		void pvf(){std::cout << "pvf" << std::endl;};
