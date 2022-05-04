@@ -2,9 +2,14 @@
 #include <iostream>
 
 
-class A{
+template<typename T> class A{
 	puclic:
-		virtual void vf(){std::cout << "Avf" << std::endl;};
+		virtual void vf(){
+		std::cout<< elements of array << std::endl;
+		for(int a : T){
+			cout << a << \n;
+			}
+		};
 		virtual void f(){std::cout << "Af" << std::endl;};
 		virtual void pvf() = 0;
 }
@@ -20,7 +25,7 @@ int main(){
 	try{
 
 	std::cout << absztrakt osztály lekezelés << std::endl;
-	B.peldany;
+	Array<int> peldany(arr, 5);
 	peldany.vf();
 	peldany.f();
 	peladny.pvf();
