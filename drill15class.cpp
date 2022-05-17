@@ -84,7 +84,7 @@ int main(){
 	cout << p1 << endl;
 	
 	
-	*/vector<Person> vec;
+	/*vector<Person> vec;
 	for(Person p; cin >>p;){
 		vec.push_back(p);*/
 		
