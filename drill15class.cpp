@@ -84,9 +84,20 @@ int main(){
 	cout << p1 << endl;
 	
 	
-	vector<Person> vec;
+	*/vector<Person> vec;
 	for(Person p; cin >>p;){
-		vec.push_back(p);
+		vec.push_back(p);*/
+		
+		vector<Person> vec;
+			while(cin >> p){
+				if(p.getf() =="L" || p.getl() =="L"){
+				break;
+				}
+			vec.push_back(p);
+			}
+		
+		
+		
 	}//feltöltés
 	for(Person p: vec){
 		cout << p << endl;
